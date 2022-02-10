@@ -1,0 +1,105 @@
+@import url("null.css");
+@import url(https://fonts.googleapis.com/css?family=Oswald:regular,600,700);
+body {
+   font-family:"Oswald";
+   font-size: 20px;
+   font-weight: normal;
+}
+.wrapper {
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 10px;
+   text-align: justify;
+}
+h1 {
+   border-top: 5px solid orange;
+   box-shadow: 2px 2px 10px 15px lightgreen;
+}
+header {
+   border: 10px double blueviolet;
+}
+.image-1 {
+   border: 5px solid red;
+   max-width: 600px;
+}
+.image-1 img {
+   width: 300px;
+   height: 300px;
+   border: 5px solid green;
+   border-radius: 0% 100% 100% 100%;
+}
+.avatar img{
+   margin-left: 1300px;
+   margin-top: -300px;
+   max-width: 150px;
+   max-height: 150px;
+   border: 0px solid transparent;
+   border-radius: 50%;
+   box-shadow: 30px 30px 20px 10px rosybrown, -30px -30px 30px 5px slateblue, 30px -30px 20px 10px gold, -30px 30px 20px 10px green;
+}
+.half-life {
+   border: 7px dotted #589;
+}
+.radium {
+   text-align: left;
+   border-style: dashed;
+   border-width: 10px;
+   border-color: darkgoldenrod;
+}
+.curie {
+   border: 2px solid crimson;
+}
+.image-2 {
+   border-right: 15px solid lightblue;
+}
+.image-2 img {
+   border-right: 25px solid blueviolet;
+   border-radius: 30% 0 0 0 ;
+}
+.info-2 {
+   min-width: 350px;
+   min-height: 200px;
+   border: 10px solid sandybrown;
+   border-radius: 35px 75px;
+}
+li {
+   border: 3px dotted dodgerblue;
+   border-radius: 45% 55% 54% 46%;
+}
+.image-3 {
+   max-width: 510px;
+}
+.image-3 img {
+   max-width: 500px;
+   max-height: 500px;
+   border-radius: 50%;
+   box-shadow: 10px 10px 15px 20px purple;
+}
+.hello {
+   max-width: 250px;
+   max-height: 250px;
+   overflow: auto;
+   border: 0px solid  transparent;
+   border-radius: 50%;
+}
+.hello img{
+   max-width: 800px;
+   max-height: 800px;
+}
+.info-3 {
+   border: 4px dotted darkolivegreen;
+   outline: 4px solid yellowgreen;
+}
+.info-4 {
+   box-shadow: 1px 5px 0px 5px #000000;
+}
+a {
+   display: inline-block;
+   min-width: 300px;
+}
+.link-1 {
+   visibility: hidden;
+}
+.link-2 {
+   opacity: 0.45;
+}
